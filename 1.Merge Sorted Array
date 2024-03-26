@@ -6,8 +6,6 @@ class Solution {
         int j = 0;
         int k = 0;
 
-        System.out.println(n);
-        System.out.println(m);
         while ((i < m) && (j < n)){
             if (nums1[i] < nums2[j]){
                 returnArray[k] = nums1[i];
@@ -18,9 +16,7 @@ class Solution {
             }
             k ++;
         }
-        System.out.println(i);
-        System.out.println(j);
-        System.out.println(k);
+
         while (i < m){
             returnArray[k] = nums1[i];
             i ++;
